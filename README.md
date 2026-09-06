@@ -4,12 +4,13 @@ Official repository for **Hive Desktop** distribution installers and automated u
 
 ## Download Hive
 
-You can download the latest Windows installer directly from the [Releases](https://github.com/samkomedved319-dev/Hive-Desktop/releases) section.
+Latest Windows installer (public, no GitHub sign-in):
 
-- **Installer**: Hive-Setup-0.0.1.1.exe
+- **Version**: 0.0.1.4
+- **Installer**: [Hive-Setup-0.0.1.4.exe](https://github.com/samkomedved319-dev/hive-releases/releases/download/v0.0.1.4/Hive-Setup-0.0.1.4.exe)
 - **Platform**: Windows 10 / 11 (64-bit)
-- **Features**: Light & Dark mode adaptation, AI Swarm workspace, native companion buddy.
+- **All versions**: https://github.com/samkomedved319-dev/hive-releases/releases
 
 ## Automatic Updates
 
-Hive Desktop automatically checks this repository for new versions. When a new release is available, Hive downloads and applies the update seamlessly inside the application.
+Hive checks `latest.json` in this repo and in HiveSOURCE. When a newer version is available, **Update and restart** downloads the installer from hive-releases and applies it.
