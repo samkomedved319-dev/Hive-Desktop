@@ -1,48 +1,108 @@
-# Hive Desktop
+<div align="center">
 
-Official repository for **Hive Desktop** installers.
+# 🐝 Hive Desktop
+### *The desktop AI that does things.*
 
-Source lives on **HiveSOURCE**. This repo is Windows Setup.exe releases only.
+[![Version](https://img.shields.io/badge/version-v0.0.1.6-orange.svg)](#)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D6?logo=windows&logoColor=white)](#)
+[![Community](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/jN3MxRqvsV)
+[![License](https://img.shields.io/badge/status-preview%20build-black)](#)
 
-Do **not** use `/releases/latest/download/Hive-Setup-VERSION.exe`.
-GitHub `latest` is whatever release is marked latest on this repo.
-A versioned filename on that shortcut 404s if that tag does not contain that file.
+**Hive Desktop** bridges conversational intelligence with direct, safe PC automation.  
+Featuring a concurrent multi-agent swarm, an ambient cursor companion, and top-of-screen notch access.
 
-Always use the **tag** URL. Tags have **no `v` prefix**:
+[Features](#-key-features) • [Mozaik Swarm](#-mozaik-swarm-architecture) • [PC Automation](#-pc-control--safety-first) • [Shortcuts](#-keyboard-shortcuts) • [Roadmap](#-roadmap)
 
-`https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.2/Hive-Setup-0.0.1.7.2.exe`
+---
 
-## Current download
+</div>
 
-- **Version**: 0.0.1.7.2
-- **Installer**: [Hive-Setup-0.0.1.7.2.exe](https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.2/Hive-Setup-0.0.1.7.2.exe)
-- **Platform**: Windows 10 / 11 (64-bit)
-- **All versions**: https://github.com/samkomedved319-dev/Hive-Desktop/releases
+## 🌟 Highlights
 
-## Next: 0.0.1.7.3
+* 🤖 **Autonomous Multi-Agent Swarm:** Scout, Hive, Pulse, Critic, and Sentry collaborate on every task.
+* 🛡️ **Guarded PC Interaction:** Execute system actions with native **Allow / Deny** gatekeeping and command sandboxing.
+* 🐾 **Cursor Buddy:** An ambient companion docked to your mouse tracking AI activity in real time.
+* ⚡ **Top Notch Island:** Instant push-to-talk dictation and slash commands without window clutter.
+* 🔍 **Verified Source Research:** Live web crawling with transparent source attribution cards.
 
-1. Pull latest HiveSOURCE `main`
-2. Double-click `make-installer.bat` and leave the window open (5–15 min)
-3. Attach `release\Hive-Setup-0.0.1.7.3.exe` to tag `0.0.1.7.3` (no `v`), then mark that release **Latest**
-4. Then point HiveSOURCE `latest.json` (and this repo’s `latest.json`) at:
+---
 
-`https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.3/Hive-Setup-0.0.1.7.3.exe`
+## 🐝 Mozaik Swarm Architecture
 
-Do not publish that URL until the exe is actually attached. Until then, Update stays on **0.0.1.7.2** so it does not 404.
+Hive replaces single-prompt models with a concurrent specialized agent swarm:
 
-## What 0.0.1.7.3 is
+| Agent | Icon | Primary Role |
+| :--- | :---: | :--- |
+| **Scout** | 🛰️ | Real-time web retrieval, crawling, and verification of citations. |
+| **Hive** | 🧠 | Core reasoning, problem solving, synthesis, and code generation. |
+| **Pulse** | 💓 | Telemetry tracking, system health analysis, and risk assessment. |
+| **Critic** | ⚖️ | Validates outputs, verifies drafts, and loops improvements to Hive. |
+| **Sentry** | 🛡️ | Hard safety barrier blocking destructive shell calls and invalid claims. |
 
-The full 0.0.1.7 line, plus this update.
+---
 
-- A DM is only you and one person. Hive stays out.
-- Invite a bot from the right panel (HiveBox). You add, or the other person adds — both from that panel.
-- HiveBox has Crew / Work / Desk. Office is the house icon, not this panel.
-- @ in a DM only lists bots already in that thread.
-- Hive Free: NVIDIA NIM Lightning. GLM is off.
-- Required public username after login. People add you with `@username`.
-- Optional BYOK: OpenRouter / OpenAI / Anthropic / Google, routed by key prefix. Skip = NIM.
-- Chat `@` mentions only Workers roster bots, not people.
-- Groups: people by username plus bots.
-- Loop agents in chat + Workers. They never auto-run on a greeting, and they stay off DMs.
-- Office is the floor only — no Nudge-pair panel, no WebGL crash banner.
-- Buddy in the left rail. 1,000,000-token daily quota per username.
+## 🖥️ PC Control & Safety-First
+
+Hive can assist with everyday workflows directly on your machine through natural language or slash commands:
+
+* 📂 `/open` — Launch desktop software and files.
+* ⌨️ `/type` — Emulate targeted text entry.
+* 🖱️ `/click x y` — Precise on-screen UI interaction.
+* ⚙️ `/run` — Execute approved non-destructive shell routines.
+
+> 🔒 **Zero Unsolicited Actions:** The **Operator** halts and waits for explicit user confirmation (`Allow` / `Deny`) before interacting with your OS. An **Audit Overlay** maintains an immutable log of every action.
+
+---
+
+## 🎯 Quick-Access Interfaces
+
+### 🐾 Cursor Buddy
+An ambient assistant that trails your pointer across screens:
+* 🟠 **States:** Breathes when idle, pulses while thinking, signals when typing or listening.
+* 🎨 **Themes:** Customizable styles (`Orange`, `Ink`, `Ghost`, `Cobalt`, `Amber`).
+
+### 💊 Notch Island
+A minimal HUD that drops down from the top edge of your screen:
+* Quick queries and push-to-talk voice dictation.
+* Rapid command palette navigation without switching desktop focus.
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut | Action |
+| :--- | :--- |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd> | Toggle **Notch Island** (instant access bar) |
+| <kbd>Ctrl</kbd> + <kbd>K</kbd> | Open **Command Palette** (switch modes, canvas, settings) |
+| <kbd>Esc</kbd> | Dismiss active overlay or floating interface |
+
+---
+
+## 📦 HiveBox Workspace
+
+Hive integrates a side-rail developer environment:
+* 💾 **Tiny Disk:** Local workspace persistence for artifacts, assets, and logs between jobs.
+* 📊 **Swarm Strip:** Live timeline displaying agent overlaps, milestones, and latencies.
+* 📝 **Execution Audit:** Granular event records of every shell execution and UI event.
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Concurrent multi-agent engine (`v0.0.1.6`)
+- [x] Allow / Deny operating system control layer
+- [x] Dynamic cursor buddy & top-docked notch
+- [ ] 🎙️ Full-duplex real-time voice calls
+- [ ] 🌐 Browser extension (Buddy on the Web)
+- [ ] 📱 Hive Mobile companion application
+
+---
+
+## 🤝 Community & Support
+
+* 💬 **Discord:** [Join the Hive Server](https://discord.gg/jN3MxRqvsV)
+* 🌐 **Web:** [samkomedved319-dev.github.io/hive](https://samkomedved319-dev.github.io/hive)
+
+<div align="center">
+<sub>Engineered with precision by <b>Apis</b>. Designed for doers.</sub>
+</div>
