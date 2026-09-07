@@ -1,6 +1,6 @@
 {
   "version": "0.0.1.7.2",
-  "downloadUrl": "https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.2/Hive-Setup-0.0.1.7.2.exe",
+  "downloadUrl": "https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.3/Hive-Setup-0.0.1.7.3.exe",
   "notes": [
     { "type": "new", "text": "DMs: type @ plus two letters of a username. Matching people pop up — pick the full name, or add someone new." },
     { "type": "fix", "text": "Chat @ mentions only your Workers roster bots, not people." },
