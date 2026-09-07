@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1.7.1",
-  "downloadUrl": "https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.1/Hive-Setup-0.0.1.7.1.exe",
+  "version": "0.0.1.7.2",
+  "downloadUrl": "https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.2/Hive-Setup-0.0.1.7.2.exe",
   "notes": [
-    { "type": "fix", "text": "Bring-your-own-key actually replies. Prefix is trusted over the Settings slot." },
-    { "type": "fix", "text": "Office agents load from the bundled roster if agents.json fails to fetch." },
-    { "type": "fix", "text": "Hive Free still uses NVIDIA NIM Lightning. GLM is off." },
-    { "type": "new", "text": "Pick a username after login — others add you to DMs and groups with it." }
+    { "type": "new", "text": "DMs: type @ plus two letters of a username. Matching people pop up — pick the full name, or add someone new." },
+    { "type": "fix", "text": "Chat @ mentions only your Workers roster bots, not people." },
+    { "type": "fix", "text": "Office is the floor only. The fake Nudge-pair panel is gone. If 3D dies you still get the crew map — no crash banner." },
+    { "type": "fix", "text": "Custom API keys route by prefix. Clearing a key returns you to NVIDIA NIM." }
   ]
 }
