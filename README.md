@@ -19,22 +19,20 @@ Always use the **tag** URL. Tags have **no `v` prefix**:
 - **Platform**: Windows 10 / 11 (64-bit)
 - **All versions**: https://github.com/samkomedved319-dev/Hive-Desktop/releases
 
-## Next: 0.0.1.7.3
-
-The 0.0.1.7.3 tag and notes exist. The Setup.exe is built on Windows from HiveSOURCE.
+## Next: 0.0.1.7.2
 
 1. Pull latest HiveSOURCE `main`
 2. Double-click `make-installer.bat` and leave the window open (5–15 min)
-3. Attach `release\Hive-Setup-0.0.1.7.3.exe` to tag `0.0.1.7.3` (no `v`), then mark that release **Latest**
+3. Attach `release\Hive-Setup-0.0.1.7.2.exe` to tag `0.0.1.7.2` (no `v`), then mark that release **Latest**
 4. Then point HiveSOURCE `latest.json` (and this repo’s `latest.json`) at:
 
-`https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.3/Hive-Setup-0.0.1.7.3.exe`
+`https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7.2/Hive-Setup-0.0.1.7.2.exe`
 
 Do not publish that URL until the exe is actually attached. Until then, Update stays on **0.0.1.7.1** so it does not 404.
 
-## What 0.0.1.7.3 is
+## What 0.0.1.7.2 is
 
-The full 0.0.1.7 line, plus this patch. See [Hive 0.0.1.7.3](https://github.com/samkomedved319-dev/Hive-Desktop/releases/tag/0.0.1.7.3).
+The full 0.0.1.7 line, plus this update.
 
 - Hive Free: NVIDIA NIM Lightning. GLM is off.
 - Required public username after login. People add you with `@username`.
