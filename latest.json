@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1.6",
-  "downloadUrl": "https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.6/Hive-Setup-0.0.1.6.exe",
+  "version": "0.0.1.7",
+  "downloadUrl": "https://github.com/samkomedved319-dev/Hive-Desktop/releases/download/0.0.1.7/Hive-Setup-0.0.1.7.exe",
   "notes": [
-    { "type": "fix", "text": "Hive Free uses only GLM 5.3. Nemotron (zero credits) is gone." },
-    { "type": "fix", "text": "Bring your own OpenRouter, OpenAI, or Anthropic key in Settings." },
-    { "type": "new", "text": "Loop agents are back in the main chat strip." },
-    { "type": "improve", "text": "Updating or signing in again no longer resets your Hive Free 1M token pool." }
+    { "type": "fix", "text": "Hive Free uses NVIDIA NIM Lightning. GLM is off." },
+    { "type": "new", "text": "Pick a username after login — others add you to DMs and groups with it." },
+    { "type": "new", "text": "Startup asks for OpenRouter, OpenAI, Anthropic, or Google keys. Skip to use NIM." },
+    { "type": "fix", "text": "Office tab no longer goes blank." }
   ]
 }
