@@ -1,108 +1,101 @@
+# 🐝 Hive Desktop
+
 <div align="center">
 
-# 🐝 Hive Desktop
-### *The desktop AI that does things.*
+### **The desktop AI that does things.**
 
-[![Version](https://img.shields.io/badge/version-v0.0.1.6-orange.svg)](#)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D6?logo=windows&logoColor=white)](#)
-[![Community](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/jN3MxRqvsV)
-[![License](https://img.shields.io/badge/status-preview%20build-black)](#)
+A modern Windows workspace that bridges conversational AI with real operating system control, powered by a concurrent agent swarm, interactive PC automation, and an ambient cursor companion.
 
-**Hive Desktop** bridges conversational intelligence with direct, safe PC automation.  
-Featuring a concurrent multi-agent swarm, an ambient cursor companion, and top-of-screen notch access.
-
-[Features](#-key-features) • [Mozaik Swarm](#-mozaik-swarm-architecture) • [PC Automation](#-pc-control--safety-first) • [Shortcuts](#-keyboard-shortcuts) • [Roadmap](#-roadmap)
-
----
+[![Version](https://img.shields.io/badge/version-v0.0.1.7.5-orange.svg)](#)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue.svg)](#)
+[![Discord](https://img.shields.io/badge/community-Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/jN3MxRqvsV)
+[![Status](https://img.shields.io/badge/preview-invite--only-lightgrey.svg)](#)
 
 </div>
 
-## 🌟 Highlights
+---
 
-* 🤖 **Autonomous Multi-Agent Swarm:** Scout, Hive, Pulse, Critic, and Sentry collaborate on every task.
-* 🛡️ **Guarded PC Interaction:** Execute system actions with native **Allow / Deny** gatekeeping and command sandboxing.
-* 🐾 **Cursor Buddy:** An ambient companion docked to your mouse tracking AI activity in real time.
-* ⚡ **Top Notch Island:** Instant push-to-talk dictation and slash commands without window clutter.
-* 🔍 **Verified Source Research:** Live web crawling with transparent source attribution cards.
+## ⚡ What is Hive?
+
+Hive is not just another text chat box. It is an agentic desktop operating environment that performs cited live research, coordinates parallel autonomous workers, and safely interacts with your PC—clicking, typing, running tools, and launching apps under strict user supervision.
 
 ---
 
-## 🐝 Mozaik Swarm Architecture
+## ✨ Key Features
 
-Hive replaces single-prompt models with a concurrent specialized agent swarm:
-
-| Agent | Icon | Primary Role |
-| :--- | :---: | :--- |
-| **Scout** | 🛰️ | Real-time web retrieval, crawling, and verification of citations. |
-| **Hive** | 🧠 | Core reasoning, problem solving, synthesis, and code generation. |
-| **Pulse** | 💓 | Telemetry tracking, system health analysis, and risk assessment. |
-| **Critic** | ⚖️ | Validates outputs, verifies drafts, and loops improvements to Hive. |
-| **Sentry** | 🛡️ | Hard safety barrier blocking destructive shell calls and invalid claims. |
+### 🤖 Mozaik Agent Swarm
+One message activates an entire specialized crew running concurrently:
+* 🔭 **Scout:** Gathers live sources, web snippets, and factual data.
+* 🐝 **Hive:** Synthesizes research, drafts logic, and writes code.
+* 💓 **Pulse:** Monitors system metrics, execution load, and risk factors.
+* ⚖️ **Critic:** Reviews outputs and sends revisions back to Hive before completion.
+* 🛡️ **Sentry:** Intercepts hallucinated links and immediately blocks destructive commands.
 
 ---
 
-## 🖥️ PC Control & Safety-First
-
-Hive can assist with everyday workflows directly on your machine through natural language or slash commands:
-
-* 📂 `/open` — Launch desktop software and files.
-* ⌨️ `/type` — Emulate targeted text entry.
-* 🖱️ `/click x y` — Precise on-screen UI interaction.
-* ⚙️ `/run` — Execute approved non-destructive shell routines.
-
-> 🔒 **Zero Unsolicited Actions:** The **Operator** halts and waits for explicit user confirmation (`Allow` / `Deny`) before interacting with your OS. An **Audit Overlay** maintains an immutable log of every action.
+### 🖥️ Safe PC Control & Automation
+Command your machine directly or via natural language:
+* ⌨️ **Slash Commands:** Support for `/open`, `/run`, `/click x y`, `/type`, and more.
+* 🚦 **Allow / Deny Protection:** Hive pauses and prompts for explicit approval before touching system files or interacting with active apps.
+* 📜 **Audit Log Overlay:** Real-time visibility into every automated keystroke, mouse movement, and shell trigger.
 
 ---
 
-## 🎯 Quick-Access Interfaces
-
-### 🐾 Cursor Buddy
-An ambient assistant that trails your pointer across screens:
-* 🟠 **States:** Breathes when idle, pulses while thinking, signals when typing or listening.
-* 🎨 **Themes:** Customizable styles (`Orange`, `Ink`, `Ghost`, `Cobalt`, `Amber`).
-
-### 💊 Notch Island
-A minimal HUD that drops down from the top edge of your screen:
-* Quick queries and push-to-talk voice dictation.
-* Rapid command palette navigation without switching desktop focus.
+### 🐾 Cursor Buddy & Floating Notch
+* 🧭 **Cursor Buddy:** An ambient animated mascot that tracks your cursor across monitors—blinking, thinking, and displaying worker states. Customizable inks: *Orange*, *Ink*, *Ghost*, *Cobalt*, and *Amber*.
+* 💊 **Top Notch (`Ctrl + Shift + J`):** A minimalist dynamic island pinned to the top of your screen. Ask quick questions, execute shortcuts, or trigger push-to-talk voice dictation without pulling up the full app window.
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+### 📦 HiveBox & Workspace
+* 🗄️ **Persistent Sandbox:** Keeps temporary files, command history, and worker outputs organized across task sessions.
+* 🎙️ **Voice In / Spoken Out:** Fast push-to-talk dictation in the notch with voice responses upon task completion.
+* 🧭 **Command Palette (`Ctrl + K`):** Instantly switch chats, trigger settings, view workers, or pop the canvas.
+* 🌐 **Cited Intelligence:** Live web search cards complete with domain stamps, source snippets, and validated links.
+
+---
+
+## ⌨️ Shortcuts & Hotkeys
 
 | Shortcut | Action |
 | :--- | :--- |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd> | Toggle **Notch Island** (instant access bar) |
-| <kbd>Ctrl</kbd> + <kbd>K</kbd> | Open **Command Palette** (switch modes, canvas, settings) |
-| <kbd>Esc</kbd> | Dismiss active overlay or floating interface |
+| `Ctrl + Shift + J` | 💊 Toggle Notch / Quick prompt pill |
+| `Ctrl + K` | 🔍 Open Command Palette |
+| `Esc` | ✖️ Dismiss Notch or active overlay |
 
 ---
 
-## 📦 HiveBox Workspace
+## 🚀 Getting Started
 
-Hive integrates a side-rail developer environment:
-* 💾 **Tiny Disk:** Local workspace persistence for artifacts, assets, and logs between jobs.
-* 📊 **Swarm Strip:** Live timeline displaying agent overlaps, milestones, and latencies.
-* 📝 **Execution Audit:** Granular event records of every shell execution and UI event.
+### 📋 Prerequisites
+* **Operating System:** Windows 10 / 11 (64-bit)
+* **Account:** Registered profile at [hivetools.pro](https://hivetools.pro)
 
----
-
-## 🗺️ Roadmap
-
-- [x] Concurrent multi-agent engine (`v0.0.1.6`)
-- [x] Allow / Deny operating system control layer
-- [x] Dynamic cursor buddy & top-docked notch
-- [ ] 🎙️ Full-duplex real-time voice calls
-- [ ] 🌐 Browser extension (Buddy on the Web)
-- [ ] 📱 Hive Mobile companion application
+### 📥 Installation
+1. Grab the latest installer: **`Hive v0.0.1.7.5`**.
+2. Run the setup executable and follow the on-screen prompts.
+3. Sign in to your account to activate your workspace and queue status.
 
 ---
 
-## 🤝 Community & Support
+## 🗺️ Roadmap Ahead
 
-* 💬 **Discord:** [Join the Hive Server](https://discord.gg/jN3MxRqvsV)
-* 🌐 **Web:** [samkomedved319-dev.github.io/hive](https://samkomedved319-dev.github.io/hive)
+* 📞 **Full-Duplex Voice Calling:** Low-latency conversational voice loops with Hive agents.
+* 🌐 **Buddy Everywhere:** Bring your cursor companion directly into your web browser.
+* 📱 **Mobile Hive:** Monitor swarm tasks, agent logs, and chats straight from your phone.
+
+---
+
+## 👥 Community & Support
+
+* 💬 **Discord:** Join discussions and get updates at [discord.gg/jN3MxRqvsV](https://discord.gg/jN3MxRqvsV)
+* 📖 **Documentation:** Read full manuals and safety architecture on [our docs page](https://samkomedved319-dev.github.io/hive/docs.html)
+
+---
 
 <div align="center">
-<sub>Engineered with precision by <b>Apis</b>. Designed for doers.</sub>
+
+Built with 🖤 by **Apis**  
+*Local-first · True Black · Engineered for Doers*
+
 </div>
