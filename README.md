@@ -6,7 +6,7 @@
 
 A modern Windows workspace that bridges conversational AI with real operating system control, powered by a concurrent agent swarm, interactive PC automation, and an ambient cursor companion.
 
-[![Version](https://img.shields.io/badge/version-v0.0.1.7.5-orange.svg)](#)
+[![Version](https://img.shields.io/badge/version-v0.0.1.7.4-orange.svg)](#)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue.svg)](#)
 [![Discord](https://img.shields.io/badge/community-Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/jN3MxRqvsV)
 [![Status](https://img.shields.io/badge/preview-invite--only-lightgrey.svg)](#)
